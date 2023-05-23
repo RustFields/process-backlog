@@ -26,15 +26,39 @@ Started working on reifying Fields
 ### Goals
 
 In RuFi-core:
-
 - Implement Context
 - Start the RoundVM implementation
 
 In ScaFi-core:
-
 - Implement Export
 - Reify Fields
 - Port old RoundVM in Scala 3
 - Implement Fields API
 - Configure Semantic Release
+
 ### Review
+
+In RuFi-core:
+- Context is implemented [#22](https://github.com/RustFields/RuFi-core/pull/22)
+- The RoundVM implementation has started [#25](https://github.com/RustFields/RuFi-core/pull/25)
+- Fixed the behavior of Path [26](https://github.com/RustFields/RuFi-core/pull/26)
+- Refactored Context API [#28](https://github.com/RustFields/RuFi-core/pull/28)
+
+In ScaFi-core:
+- There were problems during the configuration of Semantic Release
+- Fields were reified
+- Implemented Export
+- Implemented Context
+
+## Sprint 3
+
+### Goals
+
+In RuFi-core:
+
+- Finish RoundVM
+
+In ScaFi-core:
+
+- Start implementing field calculus constructs
+- Finish porting RoundVM in Scala 3
