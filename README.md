@@ -62,3 +62,28 @@ In ScaFi-core:
 
 - Start implementing field calculus constructs
 - Finish porting RoundVM in Scala 3
+
+### Review
+
+In RuFi-core:
+
+- implemented RoundVM
+
+In ScaFi-core:
+
+- implemented nbr and rep
+- decided against implementing RoundVM in Scala for the moment: reason is, we should use our wrapped rust implementation
+
+## Sprint 4
+
+### Goals
+
+In ScaFi Core:
+
+- See if we can refactor the VM, accounting for Fields (may create another alternative project)
+- Split Fields codebase into a library
+
+In RuFi-core-wrapper:
+
+- setup Java-Rust project
+- Experiment with different solutions: JNI, Wasmer, ScalaNative (may need different projects)
