@@ -87,3 +87,35 @@ In RuFi-core-wrapper:
 
 - setup Java-Rust project
 - Experiment with different solutions: JNI, Wasmer, ScalaNative (may need different projects)
+
+### Review
+
+In ScaFi Core:
+
+- Fields codebase was split into a library
+
+In RuFi-core-wrapper:
+
+- Tested different ways to integrate RuFi in Scala, chose Scala Native
+- Built a working example that uses Scala Native and integrates some Rust functions thanks to C interoperability
+
+## Sprint 5
+
+### Goals
+
+In RuFi-core-wrapper:
+
+- Define a Gradle+SBT+Cargo project that integrates RuFi in Scala
+- Start the implementation
+
+In ScaFi-core:
+
+- Implement remaining constructs and builtins
+
+In RuFi-core:
+
+- Implement language constructs
+
+In ScaFi-fields:
+
+- Add dependency from ScaFi-core
