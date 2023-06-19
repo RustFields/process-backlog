@@ -119,3 +119,37 @@ In RuFi-core:
 In ScaFi-fields:
 
 - Add dependency from ScaFi-core
+
+### Review
+
+In RuFi-core-wrapper:
+
+- SBT+Cargo project has been defined
+- Implementation has not started yet due to compatibilty issues
+
+In Scafi-core:
+
+- Implement remaining constructs and builtins
+
+In Rufi-core:
+
+- The language is not yet implemented due to Rust limitations.
+- Some solutions has been explored to overcome this issues.
+
+In ScaFi-fields:
+
+- Fix semantic-release
+
+## Sprint 6
+
+In RuFi-core-wrapper:
+
+- Start the implementation
+
+In Rufi-core:
+
+- Explore solutions to implement language constructs
+
+In ScaFi-fields:
+
+- Add dependency from ScaFi-core
