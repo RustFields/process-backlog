@@ -142,6 +142,8 @@ In ScaFi-fields:
 
 ## Sprint 6
 
+### Goals
+
 In RuFi-core-wrapper:
 
 - Start the implementation
@@ -153,3 +155,32 @@ In Rufi-core:
 In ScaFi-fields:
 
 - Add dependency from ScaFi-core
+
+### Review
+
+In ScaFi-fields:
+
+- Added dependency from ScaFi-core
+- Implemented core language constructs
+
+Experiments over code interoperability and language constructs in Rust have revealed serious and complex problems.
+
+## Sprint 7
+
+### Goals
+
+In RuFi-core:
+
+- Change VM APIs to make them immutable
+- Implement core language constructs
+
+In ScaFi-core:
+
+- Add TestByRound and TestByEquivalence
+
+In ScaFi-fields:
+
+- Check TestByRound correctness
+- Add TestByEquivalence
+
+### Review
