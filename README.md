@@ -184,3 +184,31 @@ In ScaFi-fields:
 - Add TestByEquivalence
 
 ### Review
+
+In RuFi-core:
+
+- Decided to not make RoundVM immutable
+- Implemented core language constructs
+
+In ScaFi-core:
+
+- Added TestByRound and TestByEquivalence
+
+In ScaFi-fields:
+
+- TestByRound works correctly but needs to be expanded
+- TestByEquivalence needs to be added
+
+## Sprint 8
+
+### Goals
+
+In RuFi-core:
+
+- Implement TestByRound and TestByEquivalence
+- Refactor nest with nestIn and nestOut
+
+In ScaFi-fields:
+
+- Expand TestByRound
+- Implement TestByEquivalence
