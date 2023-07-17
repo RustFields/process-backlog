@@ -212,3 +212,22 @@ In ScaFi-fields:
 
 - Expand TestByRound
 - Implement TestByEquivalence
+
+### Review
+
+In RuFi-core:
+
+- Refactored nest with nestIn and nestOut
+
+In ScaFi-fields:
+
+- Expanded TestByRound
+- Implemented TestByEquivalence
+
+## Sprint 9
+
+### Goals
+
+In RuFi-core:
+
+- Implement TestByEquivalence
